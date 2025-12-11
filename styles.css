@@ -1,0 +1,41 @@
+html {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: skyblue;
+  background-image: linear-gradient(120deg, #EEF1FF, #D2DAFF, #AAC4FF, #B1B2FF);
+  
+}
+.architects-daughter-regular {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.architects-daughter-regular h3 {
+  font-size: 1.5rem;
+}
+.centered {
+  text-align: center;
+}
+h1,h2 {
+  text-decoration: underline;
+}
+.round img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.round img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 0.8rem;
+}
